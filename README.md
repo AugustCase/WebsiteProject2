@@ -17,3 +17,4 @@ Ideas for future improvement -
     2. add a history feature to look at previous searches
     3. add multiple gihpy api search options for different endpoints
        such as, trending, search, translate, and action
+    4. figure out how to get individual images to operate independently in css
