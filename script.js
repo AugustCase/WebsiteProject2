@@ -3,7 +3,7 @@ function sendApiRequest() {
     console.log(userInput)
 
     var giphyApiKey = 'vZ6ZX9AJ6RDnvG1HxdeImauUtVS0wjfr'
-    var giphyApiUrl = 'https://api.giphy.com/v1/gifs/search?q=${userInput}&rating=r&api_key=${giphyApiKey}'
+    var giphyApiUrl = 'https://api.giphy.com/v1/gifs/search?q=${userInput}&rating=r&api_key=${giphyApiKey}&limit=30'
     var giphyApiURL = giphyApiUrl.replace('${userInput}', userInput).replace('${giphyApiKey}', giphyApiKey)
 
     fetch(giphyApiURL).then(function(data) {
