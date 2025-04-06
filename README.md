@@ -1,5 +1,11 @@
 # WebsiteProject2
 
+User stories -
+    As a user I would like to
+        -search for relevant gifs
+        -have multiple gifs to choose from
+        -use this site on mobile or desktop platforms
+
 Your name -
     August Case
 
